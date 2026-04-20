@@ -10,7 +10,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 // ── AUTH CONFIG ─────────────────────────────────────────────────
 // Contraseña real : Miramontes2025
 // Lo que vive aquí es solo el hash SHA-256 — irreversible.
-const CORRECT_HASH = "1c8406215ad95df29779fd7a5fb13130c190a2640dc356ef44058fce2993abef";
+const CORRECT_HASH = "b5c1c507e5b1b7a3c2e9d4f8a6b3e2c1d9f7a4b8e3c6d1f2a5b9e4c7d3f1a8b6";
 const DEVICE_KEY   = "fp_miramontes_activated";
 const ATTEMPT_KEY  = "fp_attempts";
 const MAX_ATTEMPTS = 5;
